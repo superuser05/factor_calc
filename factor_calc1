@@ -4,7 +4,7 @@ function listFactors(number)
 {
     var factors = [];
     if (number <= 0)
-        console.log("Number should be a natural number.");
+        alert("Number should be a natural number.");
     else { 
         for (var i = 1; i <= number; i++)
             {
